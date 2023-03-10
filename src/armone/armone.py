@@ -93,5 +93,3 @@ def main():
 
     with open(args.output[0], "w") as write_obj:
         write_obj.write(code)
-
-main()
