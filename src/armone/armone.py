@@ -68,6 +68,7 @@ def decode(string, base):
 def prepare_code(code):
 
     code = remove_comments_and_docstrings(code)
+    return code
 
 def main():
 
@@ -83,7 +84,7 @@ def main():
     args = parser.parse_args()
     
     with open(args.input[0], 'r') as read_obj:
-        code = read_obj.read()
+        code = prepare_code(read_obj.read())
 
     for _ in range(random.randint(1, 32)):
 
