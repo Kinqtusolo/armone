@@ -1,1 +1,1 @@
-from armone import *
+from .encoder import decode
