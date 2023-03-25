@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "armone"
 version = "0.0.4"
 authors = [
-  { name="Kanav Bhasin", email="kanbhasin@gmail.com" },
+  { name="kinq tusolo", email="kinqtusolo@gmail.com" },
 ]
 description = "A powerful command line tool to obfuscate python scripts effectively!"
 readme = "README.md"
