@@ -7,14 +7,14 @@ from .renamer import rename
 
 def main():
 
-    parser = argparse.ArgumentParser(description = "A command line tool to obfuscate python scripts!")
+    parser = argparse.ArgumentParser(description = "A command line tool to deobfuscate python scripts!")
 
     parser.add_argument("input", type = str, nargs = 1,
                     metavar = "input_file_path", default = None,
-                    help = "The path to the file that is to be obfuscated")
+                    help = "The path to the file that is to be deobfuscated")
     parser.add_argument("-o", "--output", type = str, nargs = 1,
-                    metavar = "output_file_path", default = ["obfuscated.py"],
-                    help = "The path to the file that is to be obfuscated")
+                    metavar = "output_file_path", default = ["deobfuscated.py"],
+                    help = "The path to the file that is to be deobfuscated")
 
     args = parser.parse_args()
     
