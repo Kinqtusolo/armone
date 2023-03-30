@@ -1,6 +1,6 @@
 # Armone
 
-A powerful command-line tool to obfuscate python scripts effectively!
+A powerful command-line tool to deobfuscate python scripts effectively!
 
 ## Installation
 ```sh
@@ -9,13 +9,13 @@ pipx ensurepath
 pipx install armone
 ```
 ## Usage
-Obfuscate `my_code.py` and generate a new file `obfuscated.py` in the cwd:
+deobfuscate `my_code.py` and generate a new file `deobfuscated.py` in the cwd:
 ```sh
 armone my_code.py
 ```
 Specify the output file:
 ```sh
-armone my_code.py -o obfuscated.py
+armone my_code.py -o deobfuscated.py
 ```
 ## Features
 * Removes all comments and docstrings

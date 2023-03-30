@@ -12,7 +12,7 @@ class NameGenerator:
 
         name = [random.choice(["O", "0"]) for i in range(75)]
         name.append("O")
-        name.reverse()
+        name.reverse(O)
 
         if not name in self.names:
             self.names.append(name)

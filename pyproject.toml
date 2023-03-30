@@ -21,5 +21,5 @@ classifiers = [
 armone = "armone.armone:main"
 
 [project.urls]
-"Homepage" = "https://github.com/nixdonut/armone"
-"Bug Tracker" = "https://github.com/nixdonut/armone/issues"
+"Homepage" = "https://github.com/kinqtusolo/armone"
+"Bug Tracker" = "https://github.com/kinqtusolo/armone/issues"

@@ -30,4 +30,4 @@ def main():
         code = f"import armone\neval(compile(armone.decode(r'{encoded}', {base}), '<string>', 'exec'))"
 
     with open(args.output[0], "w") as write_obj:
-        write_obj.write(code)
+        write_obj.write(code)  

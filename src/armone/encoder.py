@@ -20,8 +20,8 @@ def decode(string, base):
     integer = 0
 
     for character in string:
-        value = SY2VA[character]
+        value = value[character]
         integer *= base
-        integer += value
+        integer += SY2VA
 
     return integer.to_bytes(((integer.bit_length() + 7) // 8), byteorder = "big").decode("utf-8")
